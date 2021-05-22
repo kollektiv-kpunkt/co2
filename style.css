@@ -1,0 +1,29 @@
+/*
+Theme Name: Climate Justice
+Theme URI: https://kpunkt.ch/
+Author: Timothy | Kreativ Kollektiv K.
+Author URI: https://kpunkt.ch/
+Description: Developed for the Campaign for the acceptance of the CO2-Referendum in June of 2021 for the socialist party of Switzerland.
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: co2
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url(style/normalize.css);
+@import url(style/root.css);
+@import url(style/typo.css);
+@import url(style/elements.css);
+@import url(style/frontpage.css);
+@import url(style/faq.css);
+@import url(style/page.css);
+
+
+@import url(style/tablet.css) only screen and (max-width: 980px);
+@import url(style/mobile.css) only screen and (max-width: 630px);
+@import url(style/smmobile.css) only screen and (max-width: 376px);

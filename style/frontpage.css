@@ -1,0 +1,223 @@
+/* HEROINE */
+
+#heroine {
+    min-height: 100vh;
+    min-height: calc(100 * var(--vh));
+    background-color: var(--red);
+}
+
+.h-text {
+    position: absolute;
+    max-width: 70vw;
+    max-height: 70vh;
+    z-index: 3;
+}
+
+#h-text1 {
+    top: 1rem;
+    left: 1rem;
+}
+
+#h-text2 {
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#h-logo {
+    bottom: 1rem;
+    left: 1rem;
+    max-width: 25vw;
+}
+
+#opensesame {
+    top: 1rem;
+    right: 1rem;
+    max-width: 25vw;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.h-fullscreen {
+    width: calc(100 * var(--vw));
+    height: calc(100 * var(--vh));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#h-bg {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    z-index: 1;
+    transform: translate(50%, -100%);
+    transition: cubic-bezier(0.15, 0.84, 0.15, 1) 1.25s transform;
+}
+
+#h-bg.show {
+    transform: translate(0);
+}
+
+#h-overlay {
+    background-color: rgba(35, 35, 35, 0.6);
+    mix-blend-mode: multiply;
+    z-index: 2;
+    backdrop-filter: blur(1.25rem);
+    visibility: hidden;
+    opacity: 0;
+    transition: cubic-bezier(0.13, 0.77, 0.43, 0.93) 0.75s opacity;
+}
+
+#h-overlay.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+#h-content {
+    display: flex;
+    z-index: 4;
+    transform: translateY(3rem);
+    opacity: 0;
+    transition: cubic-bezier(0.13, 0.77, 0.43, 0.93) 0.75s transform, cubic-bezier(0.13, 0.77, 0.43, 0.93) 0.75s opacity;
+}
+
+#h-content.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#h-content p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#h-cont-inner {
+    margin: auto 0;
+    text-align: center;
+    color: var(--white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* #h-cont-inner h1 {
+    display: none;
+} */
+
+
+/* REASONS */
+
+div#reasons {
+    padding-top: 5rem;
+}
+
+div#reason-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 4rem;
+    margin-top: 4rem;
+}
+
+div.reason {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0.75rem;
+}
+
+.reason .r-no h1 {
+    color: var(--red);
+    font-size: clamp(4rem, 8vw, 10rem);
+    width: 0.8em;
+}
+
+.r-cont h3 {
+    color: var(--red);
+}
+
+
+/* BOTTOM CONTENT */
+#bottom_content {
+    padding-top: 4rem;
+}
+
+#bottom_content h2 {
+    padding-top: 2rem;
+}
+
+#bottom_content h2:first-of-type {
+    padding-top: unset;
+}
+
+
+/* POPUP */
+
+span.highlight {
+    background-image: linear-gradient(to right,var(--grey) 0,var(--grey) 100%);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 100% 20%;
+    transition: ease-in-out 0.125s background-size;
+    cursor: pointer;
+}
+
+span.highlight:hover {
+    background-size: 100% 100%;
+}
+
+#home_popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    height: calc(100 * var(--vh));
+    background-color: #232323b6;
+    z-index: 10000;
+    overflow-y: scroll;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.75s cubic-bezier(0.175, 0.885, 0.32, 1) transform, 0.25s linear opacity;
+}
+
+#home_popup.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.75s cubic-bezier(0.175, 0.885, 0.32, 1) transform, 0.25s linear opacity;
+}
+
+#popup-inner {
+    padding-left: calc(var(--scpad) - 2rem);
+    padding-right: calc(var(--scpad) - 2rem);
+    padding-top: 3rem;
+}
+
+#popup-cont {
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 0.5rem 0.5rem 0 0;
+    position: relative;
+}
+
+#popup-cont h3 {
+    padding-top: 1rem;
+}
+
+#popup-cont h3:first-of-type {
+    padding-top: 0;
+}
+
+#close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    line-height: 0.8;
+    font-size: 2rem;
+    transform: translate(50%, -50%);
+    color: var(--white);
+    text-shadow: 0px 0px 5px var(--black);
+    cursor: pointer;
+}

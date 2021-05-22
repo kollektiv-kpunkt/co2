@@ -1,0 +1,2 @@
+<?php
+//God is dead.

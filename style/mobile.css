@@ -1,0 +1,87 @@
+html {font-size: 93.75%;} /*15px*/
+
+h1 {
+    margin-top: 0;
+    font-size: 2.441rem;
+}
+
+h2 {font-size: 1.953rem;}
+
+h3 {font-size: 1.563rem;}
+
+h4 {font-size: 1.25rem;}
+
+h5 {font-size: 1rem;}
+
+/* HEROINE */
+#h-cont-inner h1 {
+    font-size: 1.75rem;
+    font-family: "Nimbus", sans-serif;
+    text-transform: none;
+    font-weight: 800;
+}
+
+/* ELEMENTS */
+
+.button, a.button {
+    font-size: 1rem;
+    margin-top: 0.6rem
+}
+
+.buttongrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0.6rem;
+}
+
+.buttongrid .button, .buttongrid a.button{
+    margin-top: 0;
+}
+
+/* FOOTER */
+#f-lower {
+    grid-template-columns: 1fr;
+}
+
+/* BOTTOM BAR */
+#copyright {
+    display: none;
+}
+
+/* NAV */
+nav img {
+    max-height: 40px;
+}
+
+#menu-overlay img {
+    max-height: 40px;
+}
+
+/* PAGE */
+#page-content {
+    padding-top: 2rem;
+}
+
+/* MITMACHEN FORM */
+.text-group-grid {
+    grid-template-columns: 1fr;
+}
+
+.text-group-grid button {
+    grid-column: unset;
+}
+
+textarea, .fullw {
+    grid-column: unset;
+}
+
+@media only screen and (max-width: 400px) {
+    .tab[data-tab=donate] {
+        display: none;
+    }
+}
+
+/* SUPPORTER GRID */
+.supporter-grid {
+    grid-template-columns: 1fr 1fr;
+}

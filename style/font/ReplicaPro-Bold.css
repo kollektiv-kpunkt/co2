@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Replica';
+    src: url('ReplicaPro-Bold.eot'); /* IE9 Compat Modes */
+    src: url('ReplicaPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('ReplicaPro-Bold.woff') format('woff'), /* Modern Browsers */
+         url('ReplicaPro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('ReplicaPro-Bold.svg#ReplicaPro-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

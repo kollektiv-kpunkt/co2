@@ -1,0 +1,32 @@
+:root {
+    --red: #E72B34;
+    --black: #232323;
+    --white: #f7f7f7;
+    --grey: #b5b5b5;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+body {
+    background-color: var(--white);
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html.noscroll {
+    overflow: hidden;
+}
+
+.t-21 {
+    max-width: 21cm;
+}

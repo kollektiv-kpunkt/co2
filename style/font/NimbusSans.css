@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Nimbus';
+    src: url('NimbusSanNov-Bol.eot'); /* IE9 Compat Modes */
+    src: url('NimbusSanNov-Bol.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('NimbusSanNov-Bol.woff') format('woff'), /* Modern Browsers */
+         url('NimbusSanNov-Bol.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('NimbusSanNov-Bol.svg#NimbusSanNov-Bol') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 800;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Nimbus';
+    src: url('NimbusSanNov-Reg.eot'); /* IE9 Compat Modes */
+    src: url('NimbusSanNov-Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('NimbusSanNov-Reg.woff') format('woff'), /* Modern Browsers */
+         url('NimbusSanNov-Reg.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('NimbusSanNov-Reg.svg#NimbusSanNov-Reg') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Nimbus';
+    src: url('NimbusSanNov-SemBol.eot'); /* IE9 Compat Modes */
+    src: url('NimbusSanNov-SemBol.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('NimbusSanNov-SemBol.woff') format('woff'), /* Modern Browsers */
+         url('NimbusSanNov-SemBol.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('NimbusSanNov-SemBol.svg#NimbusSanNov-SemBol') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
