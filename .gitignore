@@ -1,1 +1,2 @@
-/includes/conn.inc.php
+*.log
+includes/conn.inc.php
