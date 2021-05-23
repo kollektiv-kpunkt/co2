@@ -73,6 +73,8 @@ $i18n = array(
     "4-text" => "Bundesrätin Simonetta Sommaruga zeigt in diesem Artikel auf, weshalb das CO2-Gesetz so wichtig und nötig ist.",
     "4-button-text" => "Auf Facebook teilen",
     "4-button-link" => "https://www.sp-ps.ch/de/kampagnen/abstimmungen-vom-13-juni-2021/wir-brauchen-dieses-gesetz-jetzt",
+    "4-insta-link" => "https://www.instagram.com/p/CPDN5ozARbq/",
+    "4-insta-text" => "Auf Instagram liken",
     
     // Challenge 5
     "5-title" => "Erdöllobby-Video teilen!",
@@ -87,6 +89,14 @@ $i18n = array(
     "6-text" => "Irreführende Angstmacherei kursiert auf allen Kanälen. Im Faktencheck nehmen wir die häufigsten Falschaussagen auf und erläutern das komplexe Gesetz einfach und kompakt.",
     "6-button-text" => "Auf Facebook teilen",
     "6-button-link" => "https://klimagerechtigkeit-ja.ch/faq/",
+    "6-insta-link" => "https://www.instagram.com/p/CPDN5ozARbq/",
+    "6-insta-text" => "Auf Instagram liken",
+    
+    // Challenge 7
+    "7-title" => "Stimmberechtigte mobilisieren !",
+    "7-text" => "Es wurden erst wenige Stimmen abgegeben. Damit wir in dieser richtungsweisenden Abstimmung mehr Klimagerechtigkeit erreichen, braucht es jede Stimme.",
+    "7-button-text" => "Jetzt Umfeld mobilisieren",
+    "7-button-link" => "https://klimagerechtigkeit-ja.ch/img.png",
 
     // Thx
     "thx-title" => "Challenge gemeistert!",

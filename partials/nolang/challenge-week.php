@@ -33,6 +33,10 @@ if (date("d.m.Y", strtotime("today")) == "29.05.2021") {
     include(__DIR__ . "/../challenges/6.php");
 }
 
+if (date("d.m.Y", strtotime("today")) == "30.05.2021") {
+    include(__DIR__ . "/../challenges/7.php");
+}
+
 ?>
 
 

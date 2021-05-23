@@ -7,6 +7,7 @@
             <p class="cta"><b><?= $i18n["cta"] ?></b></p>
             <div class="cta-buttons">
                 <a href="#" class="button cta-button nohyphen" id="fbshare" data-cta-type="facebook" data-src="https://www.facebook.com/sharer/sharer.php?u=<?= urlencode($i18n["6-button-link"]) ?>"><?= $i18n["6-button-text"] ?></a>
+                <a href="#" class="button neg cta-button nohyphen" data-cta-type="instagram" data-src="<?= $i18n["6-insta-link"] ?>"><?= $i18n["6-insta-text"] ?></a>
             </div>
         </div>
     </div>

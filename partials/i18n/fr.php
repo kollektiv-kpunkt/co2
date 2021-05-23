@@ -73,6 +73,8 @@ $i18n = array(
     "4-text" => "Notre conseillère fédérale Simonetta Sommaruga montre, dans une grande interview, pourquoi la Loi sur le CO2 bénéficie d’un si large soutien et est socialement juste.",
     "4-button-text" => "Partager sur Facebook",
     "4-button-link" => "https://www.sp-ps.ch/fr/publications/blog/nous-avons-besoin-de-la-loi-sur-le-co2-maintenant",
+    "4-insta-link" => "https://www.instagram.com/p/CPDN5ozARbq/",
+    "4-insta-text" => "Liker sur Instagram ",
     
     // Challenge 5
     "5-title" => "partager la vidéo sur le lobby pétrolier&nbsp;!",
@@ -87,7 +89,15 @@ $i18n = array(
     "6-text" => "Des propos alarmistes et trompeurs circulent sur tous les canaux. Dans notre fact-checking, nous nous attaquons aux déclarations erronées les plus courantes et expliquons la Loi sur le CO2 de manière simple et concise.",
     "6-button-text" => "Partager sur Facebook",
     "6-button-link" => "https://justice-climatique-oui.ch/faq/",
+    "6-insta-link" => "https://www.instagram.com/p/CPDN5ozARbq/",
+    "6-insta-text" => "Auf Instagram liken",
     
+    // Challenge 7
+    "7-title" => "Mobiliser la population votante&nbsp;!",
+    "7-text" => "Pour l’instant, peu de personnes ont voté. Afin d’obtenir plus de justice climatique lors de ce vote historique, chaque voix compte.",
+    "7-button-text" => "Mobilisez maintenant",
+    "7-button-link" => "https://klimagerechtigkeit-ja.ch/img.png",
+
     // Thx
     "thx-title" => "Défi maîtrisé&nbsp;!",
     "thx-text" => "Merci pour votre soutien ! Ensemble, nous pouvons obtenir un OUI à la loi sur le CO2 le 13 juin ! Invitez votre entourage dès maintenant afin qu'il participe également à notre défi dans les prochains jours :",
