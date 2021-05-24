@@ -53,7 +53,7 @@ $i18n = array(
     "1-text" => "Le conseiller national Roger Nordmann explique la Loi sur le CO2 et pourquoi nous ne devons pas nous laisser impressionner par la campagne de peur menée par le lobby pétrolier.",
     "1-fb-link" => "https://fb.watch/5CbB68tUlE/",
     "1-fb-text" => "Partager sur Facebook",
-    "1-insta-link" => "https://www.instagram.com/p/CPDN5ozARbq/",
+    "1-insta-link" => "https://www.instagram.com/tv/COu7lQYhXC8/",
     "1-insta-text" => "Liker sur Instagram ",
     
     // Challenge 2

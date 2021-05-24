@@ -100,7 +100,7 @@ $i18n = array(
 
     // Thx
     "thx-title" => "Challenge gemeistert!",
-    "thx-text" => "Danke für Ihre Unterstützung! Zusammen können wir es schaffen, am 13. Juni ein JA zum CO2-Gesetz zu erringen! Laden Sie jetzt ihr Umfeld ein, damit es in den nächsten Tagen auch an unserer Challenge teilnimmt:",
+    "thx-text" => "Danke für Ihre Unterstützung! Zusammen können wir es schaffen, am 13. Juni ein JA zum CO2-Gesetz zu erringen! Laden Sie jetzt Ihr Umfeld ein, damit es in den nächsten Tagen auch an unserer Challenge teilnimmt:",
     "thx-wa-text" => "Hallo! Ich mache bei einer Challenge für das CO2-Gesetz mit: Eine Woche lang jeden Tag eine digitale Aktion, um so viele Menschen wie möglich von einem klaren JA zum CO2-Gesetz zu überzeugen. Jetzt braucht es uns alle: Bist du auch dabei? Melde dich jetzt an: https://klimagerechtigkeit-ja.ch/challenge-woche/",
     "thx-wa" => "Per WhatsApp teilen",
     "thx-tele-link" => "https://klimagerechtigkeit-ja.ch/challenge-woche/",

@@ -9,31 +9,31 @@ require(__DIR__ . "/../i18n/{$lang}.php");
 
 <?php
 
-if (date("d.m.Y", strtotime("today")) == "24.05.2021") {
+if (date("d.m.Y", strtotime("+2 hour")) == "24.05.2021") {
     include(__DIR__ . "/../challenges/1.php");
 }
 
-if (date("d.m.Y", strtotime("today")) == "25.05.2021") {
+if (date("d.m.Y", strtotime("+2 hour")) == "25.05.2021") {
     include(__DIR__ . "/../challenges/2.php");
 }
 
-if (date("d.m.Y", strtotime("today")) == "26.05.2021") {
+if (date("d.m.Y", strtotime("+2 hour")) == "26.05.2021") {
     include(__DIR__ . "/../challenges/3.php");
 }
 
-if (date("d.m.Y", strtotime("today")) == "27.05.2021") {
+if (date("d.m.Y", strtotime("+2 hour")) == "27.05.2021") {
     include(__DIR__ . "/../challenges/4.php");
 }
 
-if (date("d.m.Y", strtotime("today")) == "28.05.2021") {
+if (date("d.m.Y", strtotime("+2 hour")) == "28.05.2021") {
     include(__DIR__ . "/../challenges/5.php");
 }
 
-if (date("d.m.Y", strtotime("today")) == "29.05.2021") {
+if (date("d.m.Y", strtotime("+2 hour")) == "29.05.2021") {
     include(__DIR__ . "/../challenges/6.php");
 }
 
-if (date("d.m.Y", strtotime("today")) == "30.05.2021") {
+if (date("d.m.Y", strtotime("+2 hour")) == "30.05.2021") {
     include(__DIR__ . "/../challenges/7.php");
 }
 
