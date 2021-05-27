@@ -1,7 +1,7 @@
 <div id="challenge" data-lang="<?= $lang ?>">
     <div id="challenge-cont">
         <div class="challenge-inner">
-            <h1 id="challenge-no">Challenge #5</h1>
+            <h1 id="challenge-no">Challenge #6</h1>
             <h3 id="challenge-sub" class="nohyphen"><?= $i18n["5-title"] ?></h3>
             <p><?= $i18n["5-text"] ?></p>
             <p class="cta"><b><?= $i18n["cta"] ?></b></p>

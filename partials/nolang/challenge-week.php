@@ -26,11 +26,11 @@ if (date("d.m.Y", strtotime("+2 hour")) == "27.05.2021") {
 }
 
 if (date("d.m.Y", strtotime("+2 hour")) == "28.05.2021") {
-    include(__DIR__ . "/../challenges/5.php");
+    include(__DIR__ . "/../challenges/6.php");
 }
 
 if (date("d.m.Y", strtotime("+2 hour")) == "29.05.2021") {
-    include(__DIR__ . "/../challenges/6.php");
+    include(__DIR__ . "/../challenges/5.php");
 }
 
 if (date("d.m.Y", strtotime("+2 hour")) == "30.05.2021") {
